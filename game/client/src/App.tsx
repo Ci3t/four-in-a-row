@@ -1,15 +1,17 @@
-import { useState } from 'react'
+
 
 import './App.css'
-import Column from './components/Column'
+import GameBoard from './components/GameBoard'
 
 
-function App() {
+
+function App():JSX.Element {
  
 
   return (
     <>
-    <Column/>
+    <h1>Four in a Row</h1>
+    <GameBoard/>
     </>
   )
 }
