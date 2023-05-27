@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
+import Column from './components/Column'
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <>
-    App
+    <Column/>
     </>
   )
 }
